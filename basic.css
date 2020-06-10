@@ -1,0 +1,275 @@
+@charset "utf8";
+
+html,body {
+	background-color: #069;
+  color: #9FF;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+  font: 12pt Comic Sans MS, Comic Sans, cursive;
+	text-decoration: none;
+}
+a:link {
+  color: #0F0;
+}
+a:visited {
+  color: #0F8;
+}
+font.h1 {
+	font: bold 16pt Comic Sans MS, Comic Sans, cursive;
+	text-decoration: none;
+}
+font.h2 {
+	font: bold 14pt Comic Sans MS, Comic Sans, cursive;
+	text-decoration: none;
+}
+font.h3 {
+	font: bold 12pt Comic Sans MS, Comic Sans, cursive;
+	text-decoration: none;
+}
+font.logo {
+  color: #0FF;
+  /*background: #*/
+}
+
+.form_holder {
+  background: #0AD;
+  color: #000;
+  border-radius: 5px;
+  border: #0CC solid 1px;
+  padding: 10px;
+}
+
+/*.form_holder [type = submit]{*/
+[type = submit]{
+  border-radius: 5px;
+  border: #0CC solid 1px;
+  background: #036;
+  color: #0F0;
+  font: bold 12pt Comic Sans MS, Comic Sans, cursive;
+	text-decoration: none;
+  padding: 10px, 6px;
+}
+
+.form_holder textarea {
+  background: #069;
+  color: #9FF;
+  border-radius: 5px;
+  border: #000 solid 1px;
+}
+  
+.form_holder td{
+  padding: 10px;
+  border: solid 1px;
+  vertical-align: top;
+}
+.form_holder fieldset{
+  border-radius: 5px;
+  border: #0CC solid 1px;
+  background: #0AD;
+  color: #000;
+}
+.active_red { /*className is used in js*/
+  background: #FAA;
+  color: #800;
+}
+.active_green { /*className is used in js*/
+  background: #AFA;
+  color: #080;
+}
+.active_green a{
+  color:#080;
+}
+div.folded {
+	position: relative;
+	padding: 0 1% 0 1%;
+  border: #0CC solid 1px;
+	border-radius: 10px;
+	display: inline-block;
+  background: #09C;
+}
+div.folded div{
+	z-index: 1;
+	display: none;
+	padding: 1%;
+}
+
+div.folded:hover div{
+	display:block;
+}
+
+table {
+  color: inherit;
+}
+table.viewer{
+  width: 100%;
+}
+table.viewer td{
+  border: #0CC solid 1px;
+  padding-left: 5px;
+  /*text-align: center;*/
+  height: 40px;
+  white-space: nowrap;
+}
+
+input, textarea{
+  font: 12pt Comic Sans MS, Comic Sans, cursive;
+	text-decoration: none;
+  /*color: #9FF;*/
+  border: none;
+}
+/* table.viewer td input[readonly]{ */
+  /* background-color: transparent; */
+  /* color: #9FF; */
+  /* border: none; */
+/* } */
+input[readonly], textarea[readonly]{
+  font: 12pt Comic Sans MS, Comic Sans, cursive;
+	text-decoration: none;
+  background-color: #069;
+  color: #9FF;
+  border: none;
+  }
+
+table.pad_table td{
+  padding: 0px 10px 0px 10px;
+}
+tr.table_header{
+  font: bold 12pt Comic Sans MS, Comic Sans, cursive;
+  text-decoration: none;
+  text-align:center;
+}
+
+td.page_descr{
+  text-align: center;
+  background: #036;
+  color: #0F0;
+}
+
+td.logo{
+  font: bold 14pt Comic Sans MS, Comic Sans, cursive;
+	text-decoration: none;
+  text-align: left;
+  background: #036;
+  width: 300px;
+}
+
+td.info_col{
+  text-align: center;
+  background: #09C;
+  border-right: 0px none;
+  border-left: 0px none;
+  /*table-layout:fixed;*/
+}
+
+td.align_col{
+  text-align: center;
+  background: #0AD;
+  border-right: 0px none;
+  border-left: 0px none;
+}
+
+td.block_sum_col{
+  vertical-align: top;
+  background: #0AD;
+  border-right: 1px solid #0CF;
+  border-left: 1px solid #0CF;
+}
+
+td.block_cell{
+  background: #0AD;
+}
+
+td.fract_cell{
+  height: 200px;
+}
+
+td.fract_cell div{
+  height:200px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+td.spacer_cell{
+  background: #28B
+}
+
+div.page_header{
+  width:100%;
+}
+
+div.page_header table{
+  width: 100%;
+  border: none;
+  font: bold 14pt Comic Sans MS, Comic Sans, cursive;
+	text-decoration: none;
+}
+
+div.header_frame{
+  width: 100%;
+  background: #069;
+  top:0;
+}
+
+div.org_list{
+  width: 98%;
+  background: #039;
+  float: left;
+  border: 1px solid #0F0;
+}
+
+div.content_frame{
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 0;
+  margin:0;
+}
+
+div.sum_frame{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 0;
+  margin:0;
+  background: #000;
+  color: #CCC;
+}
+
+div.sticky{
+  position:sticky;
+  top:0;
+}
+
+div.col_frame{
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  /*background: #D0D0D0;*/
+  float: left;
+  border: 1px solid #0F0;
+  padding: 0;
+  margin: 0;
+}
+
+div.col_header{
+  width: 10%;
+  background: #036;
+  float: left;
+  text-align:center;
+  border: 1px solid #0F0;
+}
+
+div.table_holder{
+  display: inline-block;
+  width:100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  /*background: #F0F0F0;*/
+}
+
+ 

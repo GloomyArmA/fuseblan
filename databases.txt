@@ -1,0 +1,12 @@
+fb_9##alpha, beta, gamma, A, B, C - single, epsilon - multiple, with IJSEM phenotypes (al table) test
+
+fb_8##alpha, beta, gamma, A, B, C - single, epsilon - multiple, with IJSEM phenotypes (al table)
+
+fb_5##alpha, beta, gamma, A, B, C - single, epsilon - multiple, with IJSEM phenotypes
+
+fb_4##All having C
+
+fb_11##fb_8 test from dump
+
+fb_10##operons as were
+
